@@ -12,8 +12,8 @@ multiply_add_p = core.Primitive("multiply_add")  # Create the primitive
 
 
 # register the function -- uncomment these lines for this to run successfully
-for name, fn in custom_call_for_test.cpu_custom_call_targets.items():
-    xla_client.register_cpu_custom_call_target(name, fn)
+# for name, fn in custom_call_for_test.cpu_custom_call_targets.items():
+#    xla_client.register_cpu_custom_call_target(name, fn)
 
 
 def multiply_add_prim(x, y, z):
