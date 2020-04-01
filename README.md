@@ -1,1 +1,1 @@
-# flax_xla_adventures
+# jax_xla_adventures
